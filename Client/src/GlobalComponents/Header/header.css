@@ -1,0 +1,22 @@
+header {
+  background: var(--color-primary-dark);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  color: var(--color-text-complement);
+  font-size: 8px;
+
+  img {
+    width: 4.6rem;
+
+    &.logo {
+      width: 5rem;
+    }
+  }
+}
+

@@ -63,5 +63,15 @@ p {
 }
 
 .container-secondary {
-  width: 50%;
+  width: 52%;
+  margin: 0 auto;
+}
+
+.generic-button {
+  border: 0;
+  border-radius: 4px;
+  background: var(--color-secundary);
+  color: var(--color-button-text);
+  padding: 1.4rem 2.4rem;
+  cursor: pointer;
 }

@@ -1,7 +1,8 @@
 import React from 'react';
+import Header from '../../GlobalComponents/Header/Header';
 
 function Study() {
-  return <h1>Estudar</h1>;
+  return <Header />;
 }
 
 export default Study;
